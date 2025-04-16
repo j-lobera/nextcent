@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+	/* NEUTRAL COLORS */
+	--black: #263238;
+	--dark-gray: #4d4d4d;
+	--gray: #717171;
+	--light-gray: #89939e;
+	--gray-blue: #abbed1;
+	--silver: #f5f7fa;
+	--white: #ffffff;
+
+    /* PRIMARY COLORS */
+	--primary: #4caf4f;
+	--secondary: #263238;
+    
+	/* Colors in Color Weight Scale */
+    
+	/* Color Shade */
+	--primary-950: #103e13;
+	--primary-900: #1b5e1f;
+	--primary-800: #237d31;
+	--primary-700: #388e3b;
+	--primary-600: #43a046;
+    
+	/* Color Tint */
+	--primary-500: #66bb69;
+	--primary-400: #81c784;
+	--primary-300: #a5d6a7;
+	--primary-200: #c8e6c9;
+	--primary-100: #e8f5e9;
+	--primary-50: #f3f8f4;
+    
+	/* Action */
+	--success: #2e7d31;
+	--warning: #fbc02d;
+	--error: #e53835;
+	--info: #2194f3;
+}
+
+.test-class-example {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	font-style: normal;
+}
+
+/* Global Styles */
+h1 {
+	font-size: 64px;
+	font-weight: 600;
+	line-height: 76px;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 44px;
+}
+
+h3 {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 36px;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 28px;
+}
+
