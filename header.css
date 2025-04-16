@@ -2,8 +2,11 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	position: fixed;
+	top: 0;
 
 	height: 84px;
+	width: 100vw;
 }
 
 .header-logo-div {
