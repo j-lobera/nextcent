@@ -11,24 +11,24 @@
 	--white: #ffffff;
 
     /* PRIMARY COLORS */
-	--primary: #4caf4f;
+	--primary: #4E4CAF;
 	--secondary: #263238;
     
 	/* Colors in Color Weight Scale */
     
 	/* Color Shade */
-	--primary-950: #103e13;
-	--primary-900: #1b5e1f;
-	--primary-800: #237d31;
-	--primary-700: #388e3b;
-	--primary-600: #43a046;
+	--primary-950: #292A5D;
+	--primary-900: #362E8F;
+	--primary-800: #413C9E;
+	--primary-700: #4E4CAF;
+	--primary-600: #7176BD;
     
 	/* Color Tint */
-	--primary-500: #66bb69;
-	--primary-400: #81c784;
-	--primary-300: #a5d6a7;
-	--primary-200: #c8e6c9;
-	--primary-100: #e8f5e9;
+	--primary-500: #8C92C9;
+	--primary-400: #A1A6D3;
+	--primary-300: #B2B6D9;
+	--primary-200: #C0C3DB;
+	--primary-100: #CDCFDB;
 	--primary-50: #f3f8f4;
     
 	/* Action */
