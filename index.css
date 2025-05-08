@@ -79,12 +79,32 @@ h4 {
 	line-height: 28px;
 }
 
+h1,
+h2,
+h3,
+h4 {
+	letter-spacing: 1.5px;
+	color: var(--dark-gray);
+}
+
+p {
+	color: var(--gray);
+	font-size: 16px;
+    font-weight: 300;
+}
+
 button {
 	background-color: var(--primary);
 	color: var(--white);
 	border: none;
 	cursor: pointer;
 	border-radius: 4px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	gap: 10px;
 }
 
 button:hover {
@@ -93,4 +113,11 @@ button:hover {
 
 button:active {
 	background-color: var(--primary-800);
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+
+	gap: 48px;
 }

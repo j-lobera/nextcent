@@ -24,21 +24,13 @@
 	align-items: left;
 	flex-direction: column;
 	
-	color: var(--dark-gray);
 	line-height: 76px;
 
 	gap: 16px;
-
-
 }
 
 .hero-content-main span {
 	color: var(--primary);
-}
-
-
-.hero-content-main p {
-	color: var(--gray);
 }
 
 .hero-content button {
