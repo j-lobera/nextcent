@@ -1,0 +1,31 @@
+.clients {
+	display: flex;
+
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	gap: 16px;
+}
+
+.clients-header {
+	display: flex;
+
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+    gap: 8px;
+}
+
+.clients-logos {
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+
+    padding: 25px 0;
+}

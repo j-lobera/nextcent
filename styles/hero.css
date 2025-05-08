@@ -24,38 +24,23 @@
 	align-items: left;
 	flex-direction: column;
 	
-	color: var(--dark-gray);
 	line-height: 76px;
 
 	gap: 16px;
-
-
 }
 
 .hero-content-main span {
 	color: var(--primary);
 }
 
-
-.hero-content-main p {
-	color: var(--gray);
-	}
-
 .hero-content button {
-
 	width: 128px;
 	height: 52px;
+	
 	padding: 14px 32px;
-	border-radius: 4px;
-
-	background-color: var(--primary);
-	color: var(--white);
-	border: none;
-	cursor: pointer;
-
 }
 
-	.hero-image{
+.hero-image {
 	height: 407px;
 	width: 391px;
  }
