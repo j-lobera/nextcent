@@ -39,23 +39,16 @@
 
 .hero-content-main p {
 	color: var(--gray);
-	}
-
-.hero-content button {
-
-	width: 128px;
-	height: 52px;
-	padding: 14px 32px;
-	border-radius: 4px;
-
-	background-color: var(--primary);
-	color: var(--white);
-	border: none;
-	cursor: pointer;
-
 }
 
-	.hero-image{
+.hero-content button {
+	width: 128px;
+	height: 52px;
+	
+	padding: 14px 32px;
+}
+
+.hero-image {
 	height: 407px;
 	width: 391px;
  }
