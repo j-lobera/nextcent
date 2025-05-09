@@ -1,0 +1,51 @@
+@import url('../index.css');
+
+.stats{
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: var(--silver);
+
+    padding: 64px 0;
+   
+}
+
+.stats-text{
+    width: 420px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 8px;
+}
+
+.stats-text span{
+    color: var(--primary);
+}
+
+.stats-text p{
+    color: var(--black);
+}
+
+.stats-numbers-grid{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+}
+
+.stats-numbers-content{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.stats-numbers-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
