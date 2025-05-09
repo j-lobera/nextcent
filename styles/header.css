@@ -64,13 +64,3 @@
 	/* background-color: unset; */
 	cursor: pointer;
 }
-
-.header-btn-secondary {
-	color: var(--primary);
-	background-color: var(--white);
-}
-
-.header-btn-primary {
-	background-color: var(--primary);
-	color: var(--white);
-}
