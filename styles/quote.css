@@ -1,0 +1,23 @@
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 32px 0;
+    gap: 32px;
+
+    background-color: var(--silver);
+
+}
+.quote h2 {
+	max-width: 887px;
+	text-align: center;
+
+    color: var(--black);
+}
+.quote button{
+    width: 178px;
+    height: 52px;
+
+}
