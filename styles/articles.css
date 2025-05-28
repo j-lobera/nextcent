@@ -1,0 +1,116 @@
+@import url("../index.css");
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.articles-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.articles-header h2,
+.articles-header p {
+    text-align: center;
+}
+
+.articles-header p {
+    max-width: 620px;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.articles-cards {
+    padding: 0 144px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.articles-card {
+    position: relative;
+
+    width: 368px;
+    height: 366px;
+}
+
+.articles-card-image-div {
+    padding: 13px 0;
+}
+
+.articles-card-image-div > img {
+    object-fit: cover;
+    
+    width: 100%;
+    height: 286px;
+
+    border-radius: 8px;
+}
+
+.articles-card.main {
+    height: 394px;
+}
+
+.articles-card.main .articles-card-image-div {
+    padding: 0;
+}
+
+.articles-card.main .articles-card-content-div {
+    max-height: 204px;
+    height: 204px;
+}
+
+.articles-card-content-div {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    max-width: 317px;
+    width: 317px;
+    
+    max-height: 176px;
+    height: 176px;
+    
+    background-color: var(--silver);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.articles-card-content {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 16px;
+    padding: 16px 24px;
+    height: -webkit-fill-available;
+}
+
+.articles-card-content h4 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    letter-spacing: unset;
+
+    text-align: center;
+
+    color: var(--gray);
+}
+
+.articles-card-content button {
+    height: 44px;
+    width: 178px;
+}
