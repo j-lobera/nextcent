@@ -28,9 +28,11 @@
 
 .header-nav {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
-	gap: 50px;
+
+	max-width: 588px;
+	width: 100%;
 }
 
 .header-nav a {
