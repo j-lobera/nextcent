@@ -105,6 +105,10 @@ footer p {
     padding: 2px 8px;
 }
 
+.footer-form input::placeholder {
+    color: var(--grey);
+}
+
 .footer-form img {
     position: absolute;
     right: 12px;
